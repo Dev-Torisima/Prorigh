@@ -25,7 +25,7 @@ Prorigh 利用に関するプライバシーポリシー</br>
 </br>
 5 : 問い合わせ</br>
  開発者または本ポリシーに関する問い合わせ(苦情も含む)は以下までお問合せください。</br>
-メールアドレス : </br>
+メールアドレス : <a href="mailto:apqu_tori@outlook.com">apqu_tori@outlook.com</a></br>
 </br>
 6 : 改訂</br>
  本ポリシー改訂の際には本アプリケーションまたは本リポジトリ内にてお知らせいたします。</br>
@@ -60,7 +60,7 @@ We will not transmit information about you to external parties or third parties.
 </br>
 5: Inquiries</br>
 For inquiries (including complaints) regarding developers or this policy, please contact the following.</br>
-e-mail address:</br>
+e-mail address : <a href="mailto:apqu_tori@outlook.com">apqu_tori@outlook.com</a></br>
 </br>
 6: Revisions</br>
 When this policy is revised, we will notify you in the application or repository.</br>
