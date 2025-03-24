@@ -34,5 +34,39 @@ Prorigh 利用に関するプライバシーポリシー</br>
  制定 : 2025年4月1日</br>
 </br>
 </br>
+</br>
 -English Version</br>
- 
+ </br>
+Privacy Policy for Use of Prorigh</br>
+</br>
+This is a little long, but please read it as it is important.</br>
+</br>
+0: Terminology</br>
+Developer: The person who created this application</br>
+Customer: The person who uses this application</br>
+Personal information; Information that can identify you or a third party</br>
+</br>
+1: Consent</br>
+You must agree to this policy to use this application. When you use this application, you are deemed to have agreed to this policy. When you terminate your use of this application, this policy will become invalid.</br>
+</br>
+2: Personal information collected</br>
+In principle, this application does not collect personal information. However, as an exception, data that may be considered personal information provided at your discretion may be used exclusively to provide certain functions of this application.</br>
+</br>
+3: Access to files</br>
+This application may access files on your device to save and/or read your data within this application. In such cases, such access is limited to providing the functions of this application.</br>
+</br>
+4: External transmission / Transmission to third parties</br>
+We will not transmit information about you to external parties or third parties.</br>
+</br>
+5: Inquiries</br>
+For inquiries (including complaints) regarding developers or this policy, please contact the following.</br>
+e-mail address:</br>
+</br>
+6: Revisions</br>
+When this policy is revised, we will notify you in the application or repository.</br>
+</br>
+7. Preferred Language</br>
+In the event of any discrepancies between the Japanese version of this privacy policy and versions in other languages, the Japanese version shall take precedence and apply.</br>
+</br>
+8: Date of establishment/revision</br>
+Established: April 1, 2025</br>
