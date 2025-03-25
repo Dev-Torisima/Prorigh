@@ -31,7 +31,7 @@ Prorigh 利用に関するプライバシーポリシー</br>
  本ポリシー改訂の際には本アプリケーションまたは本リポジトリ内にてお知らせいたします。</br>
 </br>
 7 : 制定日・改訂日</br>
- 制定 : 2025年4月1日</br>
+ 制定 : 2025年3月25日</br>
 </br>
 </br>
 </br>
@@ -69,4 +69,4 @@ When this policy is revised, we will notify you in the application or repository
 In the event of any discrepancies between the Japanese version of this privacy policy and versions in other languages, the Japanese version shall take precedence and apply.</br>
 </br>
 8: Date of establishment/revision</br>
-Established: April 1, 2025</br>
+Established : March 25, 2025</br>
