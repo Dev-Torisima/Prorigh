@@ -11,7 +11,7 @@ List of Samples
 -Fibonacci.ptd  :  Get Fibonacci Sequence Sample
 
 License of Samples
- Please see License.txt.
+ Please see LICENSE.txt.
 
 Contact us about the samples
  If you find any problems about the samples, please contact us at apqu_tori@outlook.com. We will deal with the issue.
@@ -30,7 +30,7 @@ Contact us about the samples
 -Fibonacci.ptd  :  フィボナッチ数列を求めるサンプル
 
 サンプルのライセンス
- License.txtをご参照ください。
+ LICENSE.txtをご参照ください。
 
 サンプルについての連絡
  サンプル等に不備などがございましたら apqu_tori@outlook.com までご連絡いただけると幸いです。対応させていただきます。
