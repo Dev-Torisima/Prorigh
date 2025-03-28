@@ -1,5 +1,10 @@
 # Explanation
-
+  
+This is very long, so we recommend using Menu.
+  
+## Menu
+- [Var Types](#var-types)
+- [Add Blocks](#about-blocks)
 ## Var Types
 |Name|Explanation|Syntax1|Syntax2|
 |:--:|:--:|:--:|:--:|
@@ -18,6 +23,12 @@
 |char|character|'c'|-|
 |string|character string|"str"|""|
 |color|ARGB or RGB color|#FFFFFFFF|#FFFFFF|
+  
+>Literal values ​​of float16, float32, and float64 are converted between each other internally for processing.
+
+>Integers are represented by the 0b prefix for binary, the 0o prefix for octal, no prefix for decimal, and the 0x prefix for hexadecimal.
+  
+>The exponential representation of a floating-point number is a mantissa,  followed by e or E, followed by a exponent.
   
 ## About Blocks
 ## Output
