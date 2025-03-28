@@ -32,25 +32,23 @@ This is very long, so we recommend using Menu.
 |color|ARGB or RGB color|#FFFFFFFF|#FFFFFF|
   
   
->Literal values ​​of float16, float32, and float64 are converted to the respective numeric types internally and processed. Also, immediate integer values ​​are treated as integers internally and processing begins, so the maximum and minimum values ​​are limited. (Sorry.)
-
 >Integers are represented by the 0b prefix for binary, the 0o prefix for octal, no prefix for decimal, and the 0x prefix for hexadecimal.
   
 >The exponential representation of a floating-point number is a mantissa,  followed by e or E, followed by a exponent.
 
-|Name|Max Value|Max Literal|Min Value|Min Literal|
+|Name|Max Value|Min Value|
 |:--:|:--:|:--:|:--:|:--:|
-|int8|127|-|-128|-|
-|uint8|256|-|0|-|
-|int16|127|-|-128|-|
-|uint16|127|-|0|-|
-|int32|127|-|-128|-|
-|uint32|127|-|0|-|
-|int64|127|-|-128|-|
-|uint64|127|-|0|-|
-|float16|127|0|0|0|
-|float32|127|0|0|0|
-|float64|127|0|0|0|
+|int8|127|-128|
+|uint8|256|0|
+|int16|127|-128|
+|uint16|127|0|
+|int32|127|-128|
+|uint32|127|0|
+|int64|127|-128|
+|uint64|127|0|
+|float16|127|0|
+|float32|127|0|
+|float64|127|0|
 
 >This is Max or Min Values.  - is 
 ## About Blocks
