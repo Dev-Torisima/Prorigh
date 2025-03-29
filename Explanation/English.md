@@ -30,27 +30,31 @@ This is very long, so we recommend using Menu.
 |char|character|'c'|-|
 |string|character string|"str"|""|
 |color|ARGB or RGB color|#FFFFFFFF|#FFFFFF|
+
+>Literal values ​​of float16, float32, and float64 are converted to the respective numeric types internally for processing, so they are converted to the specified type at run time for use.  
   
-  
->Integers are represented by the 0b prefix for binary, the 0o prefix for octal, no prefix for decimal, and the 0x prefix for hexadecimal.
+>Integers are represented by the 0b prefix for binary, the 0o prefix for octal, no prefix for decimal, and the 0x prefix for hexadecimal.  
   
 >The exponential representation of a floating-point number is a mantissa,  followed by e or E, followed by a exponent.
 
+  
+The following shows max and min value of each type.
+  
 |Name|Max Value|Min Value|
-|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|
 |int8|127|-128|
-|uint8|256|0|
-|int16|127|-128|
-|uint16|127|0|
-|int32|127|-128|
-|uint32|127|0|
-|int64|127|-128|
-|uint64|127|0|
-|float16|127|0|
-|float32|127|0|
-|float64|127|0|
-
->This is Max or Min Values.  - is 
+|uint8|255|0|
+|int16|32767|-32768|
+|uint16|65535|0|
+|int32|2147483647|-2147483648|
+|uint32|4294967295|0|
+|int64|9223372036854775807|-9223372036854775808|
+|uint64|18446744073709551616|0|
+|float16|65504|-65504|
+|float32|3.40282347e+38|-3.40282347e+38|
+|float64|1.7976931348623157e+308|-1.7976931348623157e+308|
+  
+  
 ## About Blocks
 ## Output
  This cannot be written to except during runtime.  
