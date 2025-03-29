@@ -72,6 +72,7 @@ The following shows max and min value of each type.
   
 ## Canvas
  This cannot be written to except during runtime.  
+ The Canvas size is 1280 * 720.
    
 ---
   
