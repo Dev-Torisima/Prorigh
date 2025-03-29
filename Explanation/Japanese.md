@@ -76,6 +76,7 @@ This is being writen, so please see "Explanation/English".
 >|all|[変数の型](#変数の型)で示した型すべて|-|
 >|exe|実行可能なBlock|-|
 >|num|数値型のすべて|0|
+>|enum|Blockの固有の列挙型|-|
 
 >以下では引数や実行や出力の型名は<型名>と
   
@@ -86,7 +87,7 @@ This is being writen, so please see "Explanation/English".
 - [値](#値value)
 - [関数](#関数function)
 - [メゾット](#メゾットmethod)
-- [演算](#演算)
+- [演算](#演算compute)
 - [タイマー](#タイマーtimer)
 - [時間](#時間time)
 - [ファイル](#ファイルfile)
@@ -295,7 +296,18 @@ This is being writen, so please see "Explanation/English".
 ---
 ---
   
-    
+### 演算(Compute)
+  
+---
+  
+#### Calculation
+・四則演算等の計算を行います。  
+・使用可能な種類は"足し","引き","掛け","割り","余り"("+","-","×","÷","*","/","%","&","|")が使用可能です。  
+|種類|名前|説明|型|Inの有無|
+|:--:|:--:|:--:|:--:|:--:|
+|引数|Kind|被計算数|num|あり|  
+|引数|Kind|被計算数|num|あり|  
+  
 ---
   
 ## Outputについて
