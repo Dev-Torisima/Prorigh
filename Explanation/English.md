@@ -11,6 +11,7 @@ This is very long, so we recommend using Menu.
 - [Load or Save Program](#load-or-save-program)
 - [About PTD File](#about-ptd-file)
 - [About Thread](#about-thread)
+- [Variable name restrictions](#variable-name-restrictions)
     
 ---
   
@@ -98,3 +99,6 @@ The following shows max and min value of each type.
  A maximum of 256 Threads are allowed. Note that the main program that begins with Start Block also has Thread (0). Therefore, the number of Threads that can be used within a program is 255.  
 All Threads except Thread (0) will terminate (close) when execution within the Thread ends. If the number of Threads exceeds 256, the behavior is undefined.  
  Variables (including constants and other named values) can be used regardless of Thread.  
+
+## Variable name restrictions
+ In the current version, overlapping or spaces in variable names, constant names, and stopwatch names are not allowed. Spaces are not allowed in timer names or function names. This may change in the future.
