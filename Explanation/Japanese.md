@@ -4,6 +4,9 @@ This is being writen, so please see "Explanation/English".
 # 説明
   
 非常に長くなっておりますのでメニューを使用することをお勧めします。
+
+    
+---
   
 ## メニュー
 - [変数の型](#変数の型)
@@ -14,6 +17,9 @@ This is being writen, so please see "Explanation/English".
 - [Programの読み込みと保存](#programの読み込みと保存)
 - [PTDファイルについて](#ptdファイルについて)
 - [スレッドについて](#スレッドについて)
+
+    
+---
   
 ## 変数の型
 |名前|説明|構文1|構文2|
@@ -58,6 +64,8 @@ This is being writen, so please see "Explanation/English".
 |float32|3.40282347e+38|-3.40282347e+38|
 |float64|1.7976931348623157e+308|-1.7976931348623157e+308|
   
+    
+---
   
 ## Blockについて
 >以下にここで使用する型名として扱われるを示します。(なお、変数では使用できません)
@@ -73,40 +81,53 @@ This is being writen, so please see "Explanation/English".
   
 
 ### メニュー
-- [実行](#実行(execute))
-- [コメント](#コメント(comment))
-- [値](#値(value))
-- [関数](#関数(function))
-- [メゾット](#メゾット(method))
-- [演算](#演算())
-- [タイマー](#タイマー(timer))
-- [時間](#時間(time))
-- [ファイル](#ファイル(file))
-- [出力](#出力(output))
-- [描画](#描画(canvas))
-  
+- [実行](#実行execute)
+- [コメント](#コメントcomment)
+- [値](#値value)
+- [関数](#関数function)
+- [メゾット](#メゾットmethod)
+- [演算](#演算)
+- [タイマー](#タイマーtimer)
+- [時間](#時間time)
+- [ファイル](#ファイルfile)
+- [出力](#出力output)
+- [描画](#描画canvas)
+
+---
   
 ### 実行(Execute)
+
+---
   
 #### StartBlock
 ・このブロックからプログラムは始まります。  
 ・プログラム内にこのブロックは一つしか存在は許されません。  
 ・もし存在する場合はどれか一つからしかプログラムが始まりません。  
   
+---
+  
 #### Finish Block
 ・このブロックでプログラムが終わります。  
 ・このブロックはたいていの場合はプログラム内に存在する必要があります。  
 ・プログラム内に複数存在することができます。
-
-
+  
+---
+---
+  
 ### コメント(Comment)
-
+  
+---
+  
 #### Comment Block  
 ・コメント機能を提供します。  
 ・プログラムの実行には関与しません。  
-  
+
+---
+---
   
 ### 値(Value)  
+  
+---
   
 #### Literal Block  
 ・即値を使用します。  
@@ -115,6 +136,8 @@ This is being writen, so please see "Explanation/English".
 |引数|Type|型名|type|なし|
 |引数|Value|値|all|なし|
 |出力|Output|出力|all|-|
+    
+---
   
 #### Const(Dec) Block
 ・定数を宣言します。
@@ -123,6 +146,8 @@ This is being writen, so please see "Explanation/English".
 |引数|Name|名前|name|なし|
 |引数|Type|型名|type|なし|
 |引数|Value|値|all|なし|
+    
+---
   
 #### Const(Use) Block
 ・定数を使用します。
@@ -130,6 +155,8 @@ This is being writen, so please see "Explanation/English".
 |:--:|:--:|:--:|:--:|:--:|
 |引数|Name|名前|name|なし|
 |出力|Output|出力|all|-|
+    
+---
   
 #### Var(Dec) Block
 ・変数を宣言します。
@@ -137,6 +164,8 @@ This is being writen, so please see "Explanation/English".
 |:--:|:--:|:--:|:--:|:--:|
 |引数|Name|名前|name|なし|
 |引数|Type|型名|type|なし|
+    
+---
   
 #### Var(Sub) Block
 ・変数に代入します。
@@ -144,6 +173,8 @@ This is being writen, so please see "Explanation/English".
 |:--:|:--:|:--:|:--:|:--:|
 |引数|Name|名前|name|なし|
 |引数|Value|値|all|あり|
+    
+---
   
 #### Var(Use) Block
 ・変数を使用します。
@@ -151,9 +182,13 @@ This is being writen, so please see "Explanation/English".
 |:--:|:--:|:--:|:--:|:--:|
 |引数|Name|名前|name|なし|
 |出力|Output|出力|all|-|
-  
+    
+---
+---
   
 ### 関数(Function)
+    
+---
   
 #### Action(Dec) Block
 ・複数のBlockの実行をまとめた返り値のない関数の宣言。  
@@ -173,6 +208,8 @@ This is being writen, so please see "Explanation/English".
 |引数|Type4|4つ目の関数の引数の型名|type|なし|
 |引数|Arge4|4つ目の関数の引数を代入する変数名|name|なし|
   
+---
+  
 #### Action(Use) Block
 ・宣言した関数を実行します。  
 ・指定した関数名が返り値のある関数を表す場合は出力は使用できなくなります。  
@@ -184,11 +221,15 @@ This is being writen, so please see "Explanation/English".
 |引数|Arge3|3つ目の関数の引数の値|all|のみ|
 |引数|Arge4|4つ目の関数の引数の値|all|のみ|
   
+---
+  
 #### Func(Dec) Block
 ・複数のBlockの実行をまとめた返り値のある関数の宣言。  
-・返り値は[Func(Return) Block](#func(return)-block)で指定できます。  
+・返り値は[Func(Return) Block](#funcreturn-block)で指定できます。  
 ・返り値は必ず指定してください。  
-・仕様は[Action(Dec) Block](#action(dec)-block)と同様。  
+・仕様は[Action(Dec) Block](#actiondec-block)と同様。  
+  
+---
   
 #### Func(Use) Block
 ・宣言した関数を実行します。  
@@ -202,6 +243,8 @@ This is being writen, so please see "Explanation/English".
 |引数|Arge4|4つ目の関数の引数の値|all|のみ|
 |出力|Output|出力|all|-|
   
+---
+  
 #### Func(Return) Block
 ・関数内で実行されるとその関数の実行を終了します。  
 ・その関数で返す値を引数で指定します。  
@@ -209,9 +252,13 @@ This is being writen, so please see "Explanation/English".
 |:--:|:--:|:--:|:--:|:--:|
 |引数|Type|実行元の関数の返り値の型名|type|なし|
 |引数|Output|実行元の関数の返り値|all|のみ|  
-
+  
+---
+---
   
 ### メゾット(Method)
+  
+---
   
 #### If Block
 ・条件分岐を実装します。  
@@ -221,6 +268,8 @@ This is being writen, so please see "Explanation/English".
 |実行|True|True条件の実行先|exe|-|  
 |実行|False|False条件の実行先|exe|-|  
   
+---
+  
 #### Roop Block
 ・循環処理を実装します。  
 ・なお、Roop(Break) Blockが実行されるまで終了しません。  
@@ -228,9 +277,13 @@ This is being writen, so please see "Explanation/English".
 |:--:|:--:|:--:|:--:|:--:|
 |実行|Function|実行先|exe|-|  
   
+---
+  
 #### Roop(Break) Block
 ・循環処理を停止します。  
 ・なお、Roop(Break) Blockが実行されるまで実行元の循環処理は終了しません。  
+  
+---
   
 #### Async Block
 ・非同期処理を実装します。  
@@ -239,25 +292,44 @@ This is being writen, so please see "Explanation/English".
 |:--:|:--:|:--:|:--:|:--:|
 |実行|Function|実行先|exe|-|  
   
+---
+---
   
+    
+---
   
 ## Outputについて
  実行時の書き込み以外では書き込むことはできません。  
  右下の"clear"ボタンを押すとリセットされます。  
+   
+---
+  
 ## Canvasについて
  実行時の書き込み以外では書き込むことはできません。  
  描画範囲確保のため右下に"clear"ボタンはありません。  
+   
+---
+  
 ## Logについて
  操作に失敗したときその原因などが書き込まれます。 実行時のエラーや例外が発生した場合はそれぞれ個別のメッセージが書き込まれます。  
  右下の"clear"ボタンを押すとリセットされます。  
+   
+---
+  
 ## Programの読み込みと保存
  左下にある"Load"ボタンを押すと盤面がリセットされ、選択したファイルが盤面に読み込まれます。  
  左下にある"Save"ボタンを押すと盤面が選択したファイルに保存されます。  
  左下にある"Clear"ボタンを押すと盤面がリセットされます。  
   
 >盤面にはBlockやOutputやCanvasやLogが含まれます。
+  
+---
+  
 ## PTDファイルについて
  .ptd拡張子のファイルです。バイナリ形式です。  
+   
+---
+  
 ## スレッドについて
  256個まで許容できます。なお、Start Blockから始まるメインプログラムもスレッド(0)を所持します。そのため、プログラム内で使用可能なスレッドは255個です。  
 スレッド(0)を除くすべてのスレッドはスレッド内の実行が終了するとそのスレッドは終了します(閉じます)。256個を超えた場合の動作は未定義です。  
