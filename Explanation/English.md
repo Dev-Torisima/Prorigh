@@ -74,7 +74,7 @@ The following shows max and min value of each type.
     
   
 ### Menu
-- [Execute]](#execute)
+- [Execute](#execute)
 - [Comment](#comment)
 - [Value](#value)
 - [Function](#function)
@@ -84,7 +84,7 @@ The following shows max and min value of each type.
 - [Time](#time)
 - [File](#file)
 - [Output](#output)
-- [Canvas]](#canvas)
+- [Canvas](#canvas)
 
 ---
   
