@@ -268,18 +268,17 @@
   
 ---
   
-#### Roop Block
+#### Loop Block
 ・循環処理を実装します。  
-・なお、Roop(Break) Blockが実行されるまで終了しません。  
+・なお、[Loop(Break) Block](#loopbreak-block)が実行されるまで終了しません。  
 |種類|名前|説明|型|Inの有無|
 |:--:|:--:|:--:|:--:|:--:|
 |実行|Function|実行先|exe|-|  
   
 ---
   
-#### Roop(Break) Block
+#### Loop(Break) Block
 ・循環処理を停止します。  
-・なお、Roop(Break) Blockが実行されるまで実行元の循環処理は終了しません。  
   
 ---
   
