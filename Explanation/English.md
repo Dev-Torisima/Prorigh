@@ -5,8 +5,8 @@ This is very long, so we recommend using Menu.
 ## Menu
 - [Var Types](#var-types)
 - [Add Blocks](#about-blocks)
-- [Output](#output)
-- [Canvas](#canvas)
+- [Output](#about-output)
+- [Canvas](#about-canvas)
 - [Log](#log)
 - [Load or Save Program](#load-or-save-program)
 - [About PTD File](#about-ptd-file)
@@ -780,13 +780,13 @@ This is coming soon.
   
 ---
   
-## Output
+## About Output
  This cannot be written to except during runtime.  
  Click the "clear" button at the bottom right to reset it.  
    
 ---
   
-## Canvas
+## About Canvas
  This cannot be written to except during runtime.  
  This is initialized when the parogram run. Its initial value is #FFFFFFFF.
  The Canvas size is 1280 * 720.
