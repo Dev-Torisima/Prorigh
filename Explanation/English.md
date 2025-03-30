@@ -821,4 +821,4 @@ All Threads except Thread (0) will terminate (close) when execution within the T
 ---
   
 ## Variable name restrictions
- In the current version, overlapping or spaces in variable names, constant names, and stopwatch names are not allowed. Spaces are not allowed in timer names or function names. This may change in the future.
+ In the current version, overlapping or spaces in variable names, constant names, stopwatch names, and timer names are not allowed. Spaces are not allowed in function names. This may change in the future.
