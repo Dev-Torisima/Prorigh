@@ -1,6 +1,3 @@
-This is being writen, so please see "Explanation/English".
-
-
 # 説明
   
 非常に長くなっておりますのでメニューを使用することをお勧めします。
