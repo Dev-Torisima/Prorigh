@@ -61,7 +61,37 @@ The following shows max and min value of each type.
 ---
   
 ## About Blocks
+>The following shows things used as type name here.(However, these cannot be used as types of var.)
+>|Name|Description|Syntax|
+>|:--:|:--:|:--:|
+>|name|Name for var, const, etc.|name|
+>|type|Type name|uint8|
+>|all|All type in [Var Type](#var-type)|-|
+>|exe|Executable Block|-|
+>|num|All type of number|0|
+>|num|All type of integer|0|
+>|enum|Block-unique enumeration|-|
+    
+  
+### Menu
+- [Execute]](#execute)
+- [Comment](#comment)
+- [Value](#value)
+- [Function](#function)
+- [Method](#method)
+- [Compute](#compute)
+- [Timer](#timer)
+- [Time](#time)
+- [File](#file)
+- [Output](#output)
+- [Canvas]](#canvas)
 
+---
+  
+### Execute
+
+---
+  
   
 ---
   
