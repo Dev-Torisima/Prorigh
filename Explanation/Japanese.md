@@ -42,7 +42,7 @@ This is being writen, so please see "Explanation/English".
 |color|ARGB or RGB 色|#FFFFFFFF|#FFFFFF|
   
   
->float16やfloat32やfloat64の即値は内部で数値型のそれぞれに変換されて処理されます。そのため、実行時に指定の型に変換されて使用されます。
+>float16やfloat32やfloat64の即値は内部で数値型のそれぞれとして認識されて、実行時に指定の型に変換されて使用されます。
   
 >整数の進数表現は2進数で0b接頭文字, 8進数で0o接頭文字, 10進数で接頭文字なし, 16進数で0x接頭文字です。
   
