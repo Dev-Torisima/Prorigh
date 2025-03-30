@@ -34,7 +34,7 @@ This is very long, so we recommend using Menu.
 |string|character string|"str"|""|
 |color|ARGB or RGB color|#FFFFFFFF|#FFFFFF|
 
->Literal values ​​of float16, float32, and float64 are converted to the respective numeric types internally for processing, so they are converted to the specified type at run time for use.  
+>Literal values ​​of float16, float32, and float64 are recognized internally as the respective numeric types and are converted to the specified type at runtime before use.  
   
 >Integers are represented by the 0b prefix for binary, the 0o prefix for octal, no prefix for decimal, and the 0x prefix for hexadecimal.  
   
@@ -72,6 +72,7 @@ The following shows max and min value of each type.
   
 ## Canvas
  This cannot be written to except during runtime.  
+ This is initialized when the parogram run. Its initial value is #FFFFFFFF.
  The Canvas size is 1280 * 720.
    
 ---
