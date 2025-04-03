@@ -1,6 +1,7 @@
 # Explanation
   
 This is very long, so we recommend using Menu.
+The explanation of the new version is currently being updated.
   
 ## Menu
 - [Var Types](#var-types)
