@@ -273,20 +273,30 @@ var langsel = document.getElementsByClassName("lsele")[0];
 var div_en = document.getElementsByClassName("div_en")[0];
 var div_ja = document.getElementsByClassName("div_ja")[0];
 
-
-langsel.addEventListener('change', ()=>
+function gha(kop)
 {
-if (langsel.selectedIndex == 0)
+    if (kop == 0)
 {
     div_en.style.display = 'block';
     div_ja.style.display = 'none';
 }
-else if (langsel.selectedIndex == 1)
+else if (kop == 1)
 {
     div_en.style.display = 'none';
     div_ja.style.display = 'block';
 }
-});
+
+langsel.selectedIndex = kop;
+}
+
+langsel.addEventListener('change', ()=>{gha(langsel.selectedIndex);});
+
+
+const lan = window.navigator.language.substr(0, 2);
+if (lan == "en") gha(0);
+else if (lan == "ja") gha(1);
+else gha(0);
+
         </script>
     </body>
 </html>
