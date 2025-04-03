@@ -15,7 +15,7 @@ Prorigh 利用に関するプライバシーポリシー</br>
  お客様が本アプリケーションを利用するには本ポリシーに同意いただく必要があります。本アプリケーションを利用した時点でお客様は本ポリシーに同意したものとみなされます。お客様が本アプリケーションの利用を終了された時点で、本ポリシーは無効となります。</br>
 </br>
 2 : 収集する個人情報</br>
- 本アプリケーションが収集する個人情報は原則ございません。ただし例外として、お客様の判断で提供された個人情報と判断されうるデータを本アプリケーションの特定の機能を提供するために限定して使用する可能性があります。</br>
+ 本アプリケーションが収集する個人情報は原則ございません。ただし例外として、お客様の判断で提供された個人情報と判断されうるデータを本アプリケーションの特定の機能を提供するために限定して使用する可能性があります。また、そのデータをお客様の判断で本アプリケーション内の情報を保存する際に保存されるファイルに含める可能性があります。</br>
 </br>
 3 : ファイルへのアクセス</br>
  本アプリケーションでは本アプリケーション内でのお客様のデータを保存または読み込みまたはその両方を行うために、お客様のデバイス上のファイルにアクセスする可能性がございます。その際、当該アクセスは本アプリケーションの機能を提供するために限定されます。</br>
@@ -28,10 +28,13 @@ Prorigh 利用に関するプライバシーポリシー</br>
 メールアドレス : <a href="mailto:apqu_tori%40outlook.com">apqu_tori@outlook.com</a></br>
 </br>
 6 : 改訂</br>
- 本ポリシー改訂の際には本アプリケーションまたは本リポジトリ内にてお知らせいたします。</br>
+ 本ポリシー改訂の際には本アプリケーションまたは本リポジトリ内またはホームページ内にてお知らせいたします。</br>
 </br>
 7 : 制定日・改訂日</br>
  制定 : 2025年3月25日</br>
+ 改訂 : 2025年4月3日</br>
+ >6 : 通知方法について変更しました。  
+ >2 : 保存に個人情報となりうるデータを含めることを記載しました。
 </br>
 </br>
 </br>
@@ -47,26 +50,30 @@ Customer: The person who uses this application</br>
 Personal information; Information that can identify you or a third party</br>
 </br>
 1: Consent</br>
-You must agree to this policy to use this application. When you use this application, you are deemed to have agreed to this policy. When you terminate your use of this application, this policy will become invalid.</br>
+Customer must agree to this policy to use this application. When Customer use this application, Customer are deemed to have agreed to this policy. When Customer terminate Customer's use of this application, this policy will become invalid.</br>
 </br>
 2: Personal information collected</br>
-In principle, this application does not collect personal information. However, as an exception, data that may be considered personal information provided at your discretion may be used exclusively to provide certain functions of this application.</br>
+In principle, this application does not collect personal information. However, as an exception, data that may be considered personal information provided at Customer's discretion may be used exclusively to provide certain functions of this application.The application will also include that data in files that it saves when Customer, at Customer's discretion, serve information.</br>
 </br>
 3: Access to files</br>
-This application may access files on your device to save and/or read your data within this application. In such cases, such access is limited to providing the functions of this application.</br>
+This application may access files on Customer's device to save and/or read Customer's data within this application. In such cases, such access is limited to providing the functions of this application.</br>
 </br>
 4: External transmission / Transmission to third parties</br>
-We will not transmit information about you to external parties or third parties.</br>
+This application will not transmit information about Customer to external parties or third parties.</br>
 </br>
 5: Inquiries</br>
 For inquiries (including complaints) regarding developers or this policy, please contact the following.</br>
 e-mail address : <a href="mailto:apqu_tori%40outlook.com">apqu_tori@outlook.com</a></br>
 </br>
 6: Revisions</br>
-When this policy is revised, we will notify you in the application or repository.</br>
+When this policy is revised, we will notify Customer in the application, repository, or website.</br>
 </br>
 7. Preferred Language</br>
 In the event of any discrepancies between the Japanese version of this privacy policy and versions in other languages, the Japanese version shall take precedence and apply.</br>
 </br>
 8: Date of establishment/revision</br>
-Established : March 25, 2025</br>
+ Established : March 25, 2025</br>
+ Revised: April 3, 2025</br>
+ >6 : Changed the notification method.</br>
+ >2 : Added a note that data that may be personal information will be stored.</br>
+</br>
