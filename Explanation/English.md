@@ -1,6 +1,6 @@
 # Explanation
   
-This is very long, so we recommend using Menu.
+This is very long, so we recommend using Menu.  
 The explanation of the new version is currently being updated.
   
 ## Menu
