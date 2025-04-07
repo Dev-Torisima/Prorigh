@@ -1,6 +1,8 @@
 /English Version
 Samples Explanation
 
+The samples is valid in this version.
+
 List of Samples
 -NumToStr.ptd  :  ToNumber and ToString Block Sample
 -Math.ptd  :  Math Blocks Sample
@@ -19,6 +21,8 @@ Contact us about the samples
 
 /日本語版
 サンプルについての説明
+
+このサンプルは最新ではないバージョンに対応はしていません。
 
 サンプルの種類
 -NumToStr.ptd  :  ToNumber and ToString Block のサンプル
