@@ -14,3 +14,4 @@ For the Japanese version of the explanation, please see "[Explanation/Japanese.m
 
 # Version  
 In this version, this was added Blocks for file operations, Blocks for sounds, Block for drawing images, the function saving images and sounds, and the function loading images and sounds.
+The next version is coming.
