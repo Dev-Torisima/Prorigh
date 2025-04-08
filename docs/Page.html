@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Prorigh</title>
         <link rel="icon" type="image/png" href="Pick/logo.PNG">
     </head>
@@ -56,7 +58,7 @@
                 theme="auto"
                 size="large"
                 language="ja"
-                animation="off" class="ba1">
+                animation="off"  class="ba1">
             </ms-store-badge>
                 <p class="item_it13">UIはどんな感じ？</p>
 
@@ -65,6 +67,8 @@
                 <img class="item_im3" src="Pick/en_ip3.png" title="アプリ画面3">
                 <img class="item_im4" src="Pick/en_ip4.png" title="アプリ画面4">
             </div>
+
+            <p class="item_ic0">copyright (c) Torisima 2025</p>
         </div>
 
 
@@ -76,7 +80,24 @@
         </div>
 
         <style>
-.div_main
+.item_ic0
+{
+    position: absolute;
+
+    width: 150px;
+    height: 15px;
+
+    left: 100vw;
+
+    transform: translate(-156px, 0px);
+    
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: normal;
+    color: rgb(144, 146, 143);
+}
+
+    .div_main
 {
     position: fixed;
 
@@ -103,9 +124,9 @@ top: 50px;
 
                 position: absolute;
 
-                left: 100vw;
+                left: 98vw;
                 top: 5px;
-                transform: translate(-240px, 0px);
+                transform: translate(-200px, 0px);
 
                 border-top: 0.6px solid gray;
                 border-left: 0.6px solid gray;
@@ -137,135 +158,61 @@ top: 50px;
 .item_it2
 {
     position:absolute;
-
-    width: 96vw;
-                left: 4vw;
-                top: 20px;
-
-                font-size: 18px;
 }
 
 .item_it3
 {
     position:absolute;
-
-    width: 96vw;
-                left: 4vw;
-                top: 100px;
-
-                font-size: 18px;
 }
 
-.item_it4
+    .item_it4
 {
     position:absolute;
-
-    width: 94vw;
-
-                left: 6vw;
-                top: 140px;
-
-                font-size: 17px;
 }
 
 .item_it5
 {
     position:absolute;
-
-    width: 96vw;
-                left: 4vw;
-                top: 220px;
-
-                font-size: 18px;
 }
 
 .item_it6
 {
     position:absolute;
-
-    width: 94vw;
-
-                left: 6vw;
-                top: 260px;
-
-                font-size: 17px;
 }
 
 .item_it7
 {
     position:absolute;
-
-    width: 96vw;
-                left: 4vw;
-                top: 340px;
-
-                font-size: 18px;
 }
 
 .item_it8
 {
     position:absolute;
-
-    width: 94vw;
-
-                left: 6vw;
-                top: 380px;
-
-                font-size: 17px;
 }
 
 .item_it9
 {
     position:absolute;
-
-    width: 96vw;
-                left: 4vw;
-                top: 460px;
-
-                font-size: 18px;
 }
 
 .item_it10
 {
     position:absolute;
-
-    width: 94vw;
-
-                left: 6vw;
-                top: 500px;
-
-                font-size: 17px;
 }
 
 .item_it11
 {
     position:absolute;
-
-    width: 96vw;
-                left: 4vw;
-                top: 580px;
-
-                font-size: 18px;
 }
 
 .ba1
 {
     position:absolute;
-
-
-            left: 6vw;
-            top: 650px;
 }
 
 .item_it13
 {
     position:absolute;
-
-    width: 96vw;
-                left: 4vw;
-                top: 760px;
-
-                font-size: 18px;
 }
 
 
@@ -274,49 +221,52 @@ top: 50px;
             .item_im1
             {
                 position:absolute;
-
-                width: 40vw;
-                left: 6vw;
-                top: 800px;
-
-                transform: translate(0px, 10%);
             }
             .item_im2
             {
                 position:absolute;
-
-                width: 40vw;
-                left: 54vw;
-                top: 800px;
-
-                transform: translate(0px, 10%);
             }
             .item_im3
             {
                 position:absolute;
-
-                width: 40vw;
-                left: 6vw;
-                top: 800px;
-                
-                transform: translate(0px, 130%);
             }
             .item_im4
             {
                 position:absolute;
-
-                width: 40vw;
-                left: 54vw;
-                top: 800px;
-                
-                transform: translate(0px, 130%);
             }
+
         </style>
 
         <script type="text/javascript">
 var langsel = document.getElementsByClassName("lsele")[0];
 var div_en = document.getElementsByClassName("div_en")[0];
 var div_ja = document.getElementsByClassName("div_ja")[0];
+
+var div_sub = document.getElementsByClassName("div_sub")[0];
+var div_main = document.getElementsByClassName("div_main")[0];
+
+var item_it2 = document.getElementsByClassName("item_it2");
+var item_it3 = document.getElementsByClassName("item_it3");
+var item_it4 = document.getElementsByClassName("item_it4");
+var item_it5 = document.getElementsByClassName("item_it5");
+var item_it6 = document.getElementsByClassName("item_it6");
+var item_it7 = document.getElementsByClassName("item_it7");
+var item_it8 = document.getElementsByClassName("item_it8");
+var item_it9 = document.getElementsByClassName("item_it9");
+var item_it10 = document.getElementsByClassName("item_it10");
+var item_it11 = document.getElementsByClassName("item_it11");
+var ba1 = document.getElementsByClassName("ba1");
+var item_it13 = document.getElementsByClassName("item_it13");
+
+var item_im1 = document.getElementsByClassName("item_im1");
+var item_im2 = document.getElementsByClassName("item_im2");
+var item_im3 = document.getElementsByClassName("item_im3");
+var item_im4 = document.getElementsByClassName("item_im4");
+
+var item_ic0 = document.getElementsByClassName("item_ic0")[0];
+
+
+const lanun = 2;
 
 function gha(kop)
 {
@@ -342,6 +292,218 @@ if (lan == "en") gha(0);
 else if (lan == "ja") gha(1);
 else gha(0);
 
+
+function align()
+{
+const w = window.innerWidth;
+const h = window.innerHeight;
+
+let yu = 20;
+
+for (let i = 0; i < lanun; i++)
+ {
+    item_it2[i].style.width = '94vw';
+    item_it2[i].style.left= '4vw';
+    item_it2[i].style.top = yu + 'px';
+    item_it2[i].style.fontSize = '18px';
+}
+
+yu += 80;
+
+for (let i = 0; i < lanun; i++)
+{
+    item_it3[i].style.width = "94vw";
+    item_it3[i].style.left = "4vw";
+    item_it3[i].style.top = yu + "px";
+    item_it3[i].style.fontSize = "18px";
+}
+
+yu += 40;
+
+for (let i = 0; i < lanun; i++)
+{
+    item_it4[i].style.width = '91vw';
+    item_it4[i].style.left= '6vw';
+    item_it4[i].style.top = yu +'px';
+    item_it4[i].style.fontSize = '17px';
+}
+
+    yu += 80;
+
+    for (let i = 0; i < lanun; i++)
+{
+    item_it5[i].style.width = "94vw";
+    item_it5[i].style.left = "4vw";
+    item_it5[i].style.top = yu + "px";
+    item_it5[i].style.fontSize = "18px";
+}
+
+yu += 40;
+
+for (let i = 0; i < lanun; i++)
+{
+    item_it6[i].style.width = '91vw';
+    item_it6[i].style.left= '6vw';
+    item_it6[i].style.top = yu +'px';
+    item_it6[i].style.fontSize = '17px';
+}
+
+    yu += 80;
+
+    for (let i = 0; i < lanun; i++)
+{
+    item_it7[i].style.width = "94vw";
+    item_it7[i].style.left = "4vw";
+    item_it7[i].style.top = yu + "px";
+    item_it7[i].style.fontSize = "18px";
+}
+
+yu += 40;
+
+for (let i = 0; i < lanun; i++)
+{
+    item_it8[i].style.width = '91vw';
+    item_it8[i].style.left= '6vw';
+    item_it8[i].style.top = yu +'px';
+    item_it8[i].style.fontSize = '17px';
+}
+
+    yu += 80;
+
+    for (let i = 0; i < lanun; i++)
+    {
+    item_it9[i].style.width = "94vw";
+    item_it9[i].style.left = "4vw";
+    item_it9[i].style.top = yu + "px";
+    item_it9[i].style.fontSize = "18px";
+}
+
+yu += 40;
+
+for (let i = 0; i < lanun; i++)
+{
+    item_it10[i].style.width = '91vw';
+    item_it10[i].style.left= '6vw';
+    item_it10[i].style.top = yu +'px';
+    item_it10[i].style.fontSize = '17px';
+}
+
+    yu += 80;
+
+    for (let i = 0; i < lanun; i++)
+{
+    item_it11[i].style.width = "94vw";
+    item_it11[i].style.left = "4vw";
+    item_it11[i].style.top = yu + "px";
+    item_it11[i].style.fontSize = "18px";
+}
+
+yu += 60;
+
+for (let i = 0; i < lanun; i++)
+{
+    ba1[i].style.top = yu +'px';
+    ba1[i].style.left= '6vw';
+}
+
+    yu += 110;
+
+    for (let i = 0; i < lanun; i++)
+{
+    item_it13[i].style.width = "94vw";
+    item_it13[i].style.left = "4vw";
+    item_it13[i].style.top = yu + "px";
+    item_it13[i].style.fontSize = "18px";
+}
+
+yu += 40;
+
+if (w < 960)
+{
+    yu += w * 102 * 88 * 1 / 192000;
+
+    for (let i = 0; i < lanun; i++) 
+{
+    item_im1[i].style.width = "88vw";
+item_im1[i].style.left = "6vw";
+item_im1[i].style.top = yu + "px";
+}
+
+yu += w * 102 * 88 * 12 / 192000;
+
+    for (let i = 0; i < lanun; i++) 
+{
+item_im2[i].style.width = "88vw";
+item_im2[i].style.left = "6vw";
+item_im2[i].style.top =  yu + "px";   
+}
+
+yu += w * 102 * 88 * 12 / 192000;
+
+for (let i = 0; i < lanun; i++) 
+{
+    item_im3[i].style.width = "88vw";
+item_im3[i].style.left = "6vw";
+item_im3[i].style.top = yu + "px";
+}
+
+yu += w * 102 * 88 * 12 / 192000;
+
+for (let i = 0; i < lanun; i++) 
+{
+item_im4[i].style.width = "88vw";
+item_im4[i].style.left = "6vw";
+item_im4[i].style.top = yu + "px";
+}
+
+yu += w * 102 * 88 * 12 / 192000;
+}
+else
+{
+    yu += w * 102 * 40 * 1 / 192000;
+
+    for (let i = 0; i < lanun; i++) 
+{
+    item_im1[i].style.width = "40vw";
+item_im1[i].style.left = "6vw";
+item_im1[i].style.top = yu + "px";
+
+item_im2[i].style.width = "40vw";
+item_im2[i].style.left = "54vw";
+item_im2[i].style.top =  yu + "px";   
+}
+
+yu += w * 102 * 40 * 12 / 192000;
+
+for (let i = 0; i < lanun; i++) 
+{
+    item_im3[i].style.width = "40vw";
+item_im3[i].style.left = "6vw";
+item_im3[i].style.top = yu + "px";
+
+item_im4[i].style.width = "40vw";
+item_im4[i].style.left = "54vw";
+item_im4[i].style.top = yu + "px";
+}
+
+yu += w * 102 * 40 * 12 / 192000;
+}
+
+yu += 200;
+
+item_ic0.style.top = yu + "px";
+
+yu += 15;
+
+div_sub.style.height = yu + 'px';
+}
+
+window.addEventListener('resize', align);
+
+document.addEventListener("DOMContentLoaded", ()=>
+{
+    align();
+});
         </script>
     </body>
 </html>
