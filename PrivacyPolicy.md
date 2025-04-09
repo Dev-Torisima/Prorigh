@@ -20,21 +20,30 @@ Prorigh 利用に関するプライバシーポリシー</br>
 3 : ファイルへのアクセス</br>
  本アプリケーションでは本アプリケーション内でのお客様のデータを保存または読み込みまたはその両方を行うために、お客様のデバイス上のファイルにアクセスする可能性がございます。その際、当該アクセスは本アプリケーションの機能を提供するために限定されます。</br>
 </br>
-4 : 外部送信・第三者への送信</br>
+4 : 収集する情報</br>
+ お客様のデバイス上の時間と言語を特定の機能を提供するために限定して取得する場合があります。</br>
+ </br>
+5 : 外部送信・第三者への送信</br>
  お客様に関する情報を外部または第三者に送信することはございません。</br>
 </br>
-5 : 問い合わせ</br>
+6: 問い合わせ</br>
  開発者または本ポリシーに関する問い合わせ(苦情も含む)は以下までお問合せください。</br>
 メールアドレス : <a href="mailto:apqu_tori%40outlook.com">apqu_tori@outlook.com</a></br>
 </br>
-6 : 改訂</br>
+7 : 改訂</br>
  本ポリシー改訂の際には本アプリケーションまたは本リポジトリ内またはホームページ内にてお知らせいたします。</br>
 </br>
-7 : 制定日・改訂日</br>
+8 : 制定日・改訂日</br>
  制定 : 2025年3月25日</br>
+  
  改訂 : 2025年4月3日</br>
- >6 : 通知方法について変更しました。  
+ >7 : 通知方法について変更しました。  
  >2 : 保存に個人情報となりうるデータを含めることを記載しました。
+  
+ 改訂 : 2025年4月10日</br>
+ >改番  
+ >4 : 取得情報について明記しました。  
+</br>
 </br>
 </br>
 </br>
@@ -58,22 +67,30 @@ In principle, this application does not collect personal information. However, a
 3: Access to files</br>
 This application may access files on Customer's device to save and/or read Customer's data within this application. In such cases, such access is limited to providing the functions of this application.</br>
 </br>
-4: External transmission / Transmission to third parties</br>
+4: Information collected</br>
+This application may collect the time and language on Customer's device to provide certain features.</br>
+</br>
+5: External transmission / Transmission to third parties</br>
 This application will not transmit information about Customer to external parties or third parties.</br>
 </br>
-5: Inquiries</br>
+6: Inquiries</br>
 For inquiries (including complaints) regarding developers or this policy, please contact the following.</br>
 e-mail address : <a href="mailto:apqu_tori%40outlook.com">apqu_tori@outlook.com</a></br>
 </br>
-6: Revisions</br>
+7: Revisions</br>
 When this policy is revised, we will notify Customer in the application, repository, or website.</br>
 </br>
-7. Preferred Language</br>
+8. Preferred Language</br>
 In the event of any discrepancies between the Japanese version of this privacy policy and versions in other languages, the Japanese version shall take precedence and apply.</br>
 </br>
-8: Date of establishment/revision</br>
+9: Date of establishment/revision</br>
  Established : March 25, 2025</br>
+ </br>
  Revised: April 3, 2025</br>
- >6 : Changed the notification method.</br>
+ >7 : Changed the notification method.</br>
  >2 : Added a note that data that may be personal information will be stored.</br>
+</br>
+ Revised: April 10, 2025</br>
+ >Renumbering</br>
+ >4: Clarified the information obtained.</br>
 </br>
