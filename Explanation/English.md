@@ -5,7 +5,7 @@ The explanation of the new version is currently being updated.
   
 ## Menu
 - [Var Types](#var-types)
-- [Add Blocks](#about-blocks)
+- [About Blocks](#about-blocks)
 - [Output](#about-output)
 - [Canvas](#about-canvas)
 - [Log](#log)
@@ -559,7 +559,51 @@ The following shows max and min value of each type.
     
 ---
   
-This is coming soon.
+#### File(Create) Block
+・This creates a file.  
+⋆It is a file operation, so the file should be confirmed allowed to operate.    
+|Kind|Name|Description|Type|In|
+|:--:|:--:|:--:|:--:|:--:|
+|Arg|Path|File path|string|one|  
+  
+---
+  
+#### File(Exist) Block
+・This checks if a file exists.  
+|Kind|Name|Description|Type|In|
+|:--:|:--:|:--:|:--:|:--:|
+|Arg|Path|File path|string|one|  
+|Output|Output|Presence or absence|bool|-|  
+  
+---
+  
+#### File(Delete) Block
+・This deletes a file.  
+⋆It is a file operation, so the file should be confirmed allowed to operate.  
+|Kind|Name|Description|Type|In|
+|:--:|:--:|:--:|:--:|:--:|
+|Arg|Path|File path|string|one|  
+  
+---
+  
+#### File(LoadText) Block
+・This reads text from a file.  
+・Encoding is Unicode.  
+⋆It is a file operation, so the file should be confirmed allowed to operate.  
+|Kind|Name|Description|Type|In|
+|:--:|:--:|:--:|:--:|:--:|
+|Arg|Path|File path|string|one|  
+|Output|Output|Data|string|-|  
+  
+---
+  
+#### File(SaveText) Block
+・This saves text to a file by overwriting.   
+・Encoding is Unicode.  
+⋆It is a file operation, so the file should be confirmed allowed to operate.  
+|Kind|Name|Description|Type|In|
+|:--:|:--:|:--:|:--:|:--:|
+|Arg|Data|Data|string|only|  
   
 ---
 ---
