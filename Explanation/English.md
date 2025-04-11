@@ -1,7 +1,11 @@
 # Explanation
   
 This is very long, so we recommend using Menu.  
-The explanation of the new version is currently being updated.
+The explanation of the new version is currently being updated.  
+   
+  
+If you push "L" key, it opens Language Setting.
+  
   
 ## Menu
 - [Var Types](#var-types)
