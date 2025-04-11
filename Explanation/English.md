@@ -87,6 +87,7 @@ The following shows max and min value of each type.
 - [File](#file)
 - [Output](#output)
 - [Canvas](#canvas)
+- [Player](#player)
 
 ---
   
