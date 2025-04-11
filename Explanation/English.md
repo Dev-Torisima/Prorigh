@@ -9,6 +9,7 @@ The explanation of the new version is currently being updated.
 - [Output](#about-output)
 - [Canvas](#about-canvas)
 - [Log](#log)
+- [File Path](#file-path)
 - [Load or Save Program](#load-or-save-program)
 - [About PTD File](#about-ptd-file)
 - [About Thread](#about-thread)
@@ -797,6 +798,14 @@ This is coming soon.
 ## Log
  If an operation fails, the cause will be written. If an error or exception occurs during execution, a separate message will be written for each.  
  Click the "clear" button at the bottom right to reset.
+   
+---
+  
+## File Path
+ The Blocks that performs file operations can write to the app storage folder.  The path to that folder can be specified as "AppFile:\~".  It is not recommended to directly look up the path and access it.   
+ However, there are file names that cannot be specified because there are files or file names used to save app data.   
+The behavior of operations on these files when the app is launched or closed is undefined.  
+ >["Set", "Backup", etc.]    
    
 ---
   
