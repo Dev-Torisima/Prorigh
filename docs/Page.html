@@ -31,6 +31,16 @@
                 language="en-us"
                 animation="off" class="ba1">
             </ms-store-badge>
+                <ms-store-badge
+                productid="9NZR7V8R9LLN"
+                cid="home"
+                productname="Prorigh"
+                window-mode="full"
+                theme="auto"
+                size="small"
+                language="en-us"
+                animation="off" class="ba2">
+            </ms-store-badge>
                 <p class="item_it13">How is the UI?</p>
 
                 <img class="item_im1" src="Pick/en_ip1.png" title="App Display1">
@@ -59,6 +69,16 @@
                 size="large"
                 language="ja"
                 animation="off"  class="ba1">
+            </ms-store-badge>
+                <ms-store-badge
+                productid="9NZR7V8R9LLN"
+                cid="home"
+                productname="Prorigh"
+                window-mode="full"
+                theme="auto"
+                size="small"
+                language="ja"
+                animation="off"  class="ba2">
             </ms-store-badge>
                 <p class="item_it13">UIはどんな感じ？</p>
 
@@ -97,12 +117,12 @@
     color: rgb(144, 146, 143);
 }
 
-     .div_main
+    .div_main
 {
     position: fixed;
 
     width: 100vw;
-    height: 8vh;
+    height: 50px;
 
     border-bottom: 1px solid black;
     background-color: rgb(255, 250, 246);
@@ -114,19 +134,19 @@
 
 width: 100vw;
 
-top: 8vh;
+top: 50px;
 }
 
             .lsele
             {
-                width: 30vh;
-                height: 6vh;
+                width: 200px;
+                height: 40px;
 
                 position: absolute;
 
                 left: 100vw;
-                top: 1vh;
-                transform: translate(-33vh, 0px);
+                top: 5px;
+                transform: translate(-220px, 0px);
 
                 border-top: 0.6px solid gray;
                 border-left: 0.6px solid gray;
@@ -138,8 +158,8 @@ top: 8vh;
 
             .lseo
 {
-    width: 30vh;
-    height: 6vh;
+    width: 200px;
+    height: 40px;
 
     font-size: 15px;
 }
@@ -210,6 +230,11 @@ top: 8vh;
     position:absolute;
 }
 
+.ba2
+{
+    position:absolute;
+}
+
 .item_it13
 {
     position:absolute;
@@ -238,7 +263,7 @@ top: 8vh;
         </style>
 
         <script type="text/javascript">
-                        var lseo = document.getElementsByClassName("lseo")[0];
+            var lseo = document.getElementsByClassName("lseo")[0];
 var langsel = document.getElementsByClassName("lsele")[0];
 var div_en = document.getElementsByClassName("div_en")[0];
 var div_ja = document.getElementsByClassName("div_ja")[0];
@@ -257,6 +282,7 @@ var item_it9 = document.getElementsByClassName("item_it9");
 var item_it10 = document.getElementsByClassName("item_it10");
 var item_it11 = document.getElementsByClassName("item_it11");
 var ba1 = document.getElementsByClassName("ba1");
+var ba2 = document.getElementsByClassName("ba2");
 var item_it13 = document.getElementsByClassName("item_it13");
 
 var item_im1 = document.getElementsByClassName("item_im1");
@@ -301,7 +327,9 @@ const h = window.innerHeight;
 
 let yu = 20;
 
-if (w < 600)
+
+
+if (w < 960)
 {
     div_main.style.height = '4vh';
 div_sub.style.top = '4vh';
@@ -334,7 +362,9 @@ langsel.style.transform = 'translate(-220px, 0px)';
 lseo.style.width = '200px';
 lseo.style.height = '40px';
 }
-    
+
+
+
 for (let i = 0; i < lanun; i++)
  {
     item_it2[i].style.width = '94vw';
@@ -383,7 +413,12 @@ for (let i = 0; i < lanun; i++)
     item_it6[i].style.fontSize = '17px';
 }
 
-    yu += 100;
+    yu += 80;
+
+    if (w < 600)
+{
+    yu += 40;
+}
 
     for (let i = 0; i < lanun; i++)
 {
@@ -404,6 +439,11 @@ for (let i = 0; i < lanun; i++)
 }
 
     yu += 80;
+
+    if (w < 600)
+{
+    yu += 20;
+}
 
     for (let i = 0; i < lanun; i++)
     {
@@ -435,22 +475,34 @@ for (let i = 0; i < lanun; i++)
 
 yu += 60;
 
-for (let i = 0; i < lanun; i++)
+if (w < 600)
 {
+    for (let i = 0; i < lanun; i++)
+{
+    ba1[i].style.display = 'none';
+    ba2[i].style.display = 'block';
     ba1[i].style.top = yu +'px';
     ba1[i].style.left= '6vw';
+    ba2[i].style.top = yu +'px';
+    ba2[i].style.left= '6vw';
+}
 
-        if (w < 600)
-{
-    ba1[i].size= 'small';
+yu += 110;
 }
 else
 {
-    ba1[i].size = 'large';
-}
+    for (let i = 0; i < lanun; i++)
+{
+    ba2[i].style.display = 'none';
+    ba1[i].style.display = 'block';
+    ba1[i].style.top = yu +'px';
+    ba1[i].style.left= '6vw';
+    ba2[i].style.top = yu +'px';
+    ba2[i].style.left= '6vw';
 }
 
-    yu += 110;
+yu += 110;
+}
 
     for (let i = 0; i < lanun; i++)
 {
