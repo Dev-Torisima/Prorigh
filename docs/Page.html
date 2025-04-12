@@ -238,6 +238,7 @@ top: 8vh;
         </style>
 
         <script type="text/javascript">
+                        var lseo = document.getElementsByClassName("lseo")[0];
 var langsel = document.getElementsByClassName("lsele")[0];
 var div_en = document.getElementsByClassName("div_en")[0];
 var div_ja = document.getElementsByClassName("div_ja")[0];
@@ -300,6 +301,40 @@ const h = window.innerHeight;
 
 let yu = 20;
 
+if (w < 600)
+{
+    div_main.style.height = '4vh';
+div_sub.style.top = '4vh';
+langsel.style.width = '10vh';
+langsel.style.height = '3vh';
+langsel.style.top = '0.5vh';
+langsel.style.transform = 'translate(-11vh, 0px)';
+lseo.style.width = '10vh';
+lseo.style.height = '3vh';
+}
+/*else if (w < 960)
+{
+    div_main.style.height = '4vh';
+div_sub.style.top = '4vh';
+langsel.style.width = '10vh';
+langsel.style.height = '3vh';
+langsel.style.top = '0.5vh';
+langsel.style.transform = 'translate(-11vh, 0px)';
+lseo.style.width = '10vh';
+lseo.style.height = '3vh';
+}*/
+else
+{
+div_main.style.height = '50px';
+div_sub.style.top = '50px';
+langsel.style.width = '200px';
+langsel.style.height = '40px';
+langsel.style.top = '5px';
+langsel.style.transform = 'translate(-220px, 0px)';
+lseo.style.width = '200px';
+lseo.style.height = '40px';
+}
+    
 for (let i = 0; i < lanun; i++)
  {
     item_it2[i].style.width = '94vw';
