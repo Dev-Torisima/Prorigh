@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Prorigh</title>
-            <meta name="description" content="Prorigh is easy and simple programming application.">
         <link rel="icon" type="image/png" href="Pick/logo.PNG">
     </head>
     <body style="margin: 0px; overflow-x: hidden;">
@@ -125,8 +124,8 @@
     width: 100vw;
     height: 50px;
 
-    border-bottom: 1px solid black;
-    background-color: rgb(255, 250, 246);
+    border-bottom: 1px solid light-dark(black, white);
+    background-color: light-dark(rgb(255, 250, 246), rgb(0, 5, 9));
 }
 
 .div_sub
@@ -332,14 +331,14 @@ let yu = 20;
 
 if (w < 960)
 {
-    div_main.style.height = '6vh';
-div_sub.style.top = '6vh';
+    div_main.style.height = '4vh';
+div_sub.style.top = '4vh';
 langsel.style.width = '10vh';
-langsel.style.height = '5vh';
+langsel.style.height = '3vh';
 langsel.style.top = '0.5vh';
-langsel.style.transform = 'translate(-13vh, 0px)';
-lseo.style.width = '12vh';
-lseo.style.height = '5vh';
+langsel.style.transform = 'translate(-11vh, 0px)';
+lseo.style.width = '10vh';
+lseo.style.height = '3vh';
 }
 /*else if (w < 960)
 {
@@ -603,16 +602,16 @@ document.addEventListener("DOMContentLoaded", ()=>
 });
         </script>
 
-        <style>
-          :root
-      {
-        color-scheme: light dark;
-      }
+<style>
+    :root
+{
+  color-scheme: light dark;
+}
 
-      body
-      {
-        background-color: light-dark(#ffffffff, #000000ff);
-      }
+body
+{
+  background-color: light-dark(#ffffffff, #000000ff);
+}
 </style>
     </body>
 </html>
